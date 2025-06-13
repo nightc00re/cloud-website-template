@@ -5,12 +5,12 @@ body {
     color: #E0E0E0; /* Light gray text for contrast */
 
     /* Frutiger Aero background image */
-    background-image: url("../images/css%20frutiger%20aero.jpeg"); /* Make sure this path is correct */
-    background-size: cover;       /* Ensures the image covers the entire background */
+    background-image: url("../images/FrutigerAero.jpeg"); /* CORRECTED PATH AND FILENAME */
+    background-size: cover;        /* Ensures the image covers the entire background */
     background-position: center center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-attachment: fixed; /* Keeps background fixed when scrolling */
-    background-color: #000000;    /* Fallback dark color */
+    background-color: #000000;     /* Fallback dark color */
 }
 
 .content {
