@@ -1,27 +1,19 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif; /* Example font */
-    color: #E0E0E0; /* Light gray text for contrast */
-
-    /* Frutiger Aero background image */
-    background-image: url("../images/FrutigerAero.jpeg"); /* CORRECTED PATH AND FILENAME */
-    background-size: cover;        /* Ensures the image covers the entire background */
-    background-position: center center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    background-attachment: fixed; /* Keeps background fixed when scrolling */
-    background-color: #000000;     /* Fallback dark color */
-}
-
-.content {
-    max-width: 800px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent dark background for content */
-    border-radius: 10px;
-    text-align: center;
-}
-
-h1 {
-    color: #A0D0FF; /* A light blue color for headings */
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Frutiger Aero Site</title>
+    <link rel="stylesheet" href="css/style.css?v=1.0"> <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="content">
+        <h1>Welcome to My Website!</h1>
+        <p>This is a test page for my cloud-deployed web application.</p>
+        <p>I'm learning about cloud engineering and cybersecurity.</p>
+    </div>
+</body>
+</html>
